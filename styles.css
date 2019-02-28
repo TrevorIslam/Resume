@@ -1,0 +1,24 @@
+#page-grid {
+  display: grid;
+  grid-template-areas:
+    'title title'
+    'featured featured'
+    'panel1 panel2';
+  grid-template-columns: 50% 50%;
+  grid-template-rows: auto 60% auto;
+}
+
+#title {
+  grid-area: title;
+}
+#featured {
+  grid-area: featured;
+}
+
+#panel1 {
+  grid-area: panel1;
+}
+
+#panel2 {
+  grid-area: panel2;
+}
