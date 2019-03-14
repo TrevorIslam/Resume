@@ -13,12 +13,17 @@
 }
 #featured {
   grid-area: featured;
+  margin-left: 50px;
+  margin-top: 10px;
+  margin-right: 50px;
 }
 
 #panel1 {
   grid-area: panel1;
+  margin: auto;
 }
 
 #panel2 {
   grid-area: panel2;
+  margin: auto;
 }
