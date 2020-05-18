@@ -1,10 +1,10 @@
 #page-grid {
   display: grid;
   grid-template-areas:
-    'title title'
-    'featured featured'
-    'panel1 panel2';
-  grid-template-columns: 50% 50%;
+    'title title title'
+    'featured featured featured'
+    'panel1 panel2 panel3';
+  grid-template-columns: 33% 33% 33%;
   grid-template-rows: auto 60% auto;
 }
 
@@ -25,5 +25,10 @@
 
 #panel2 {
   grid-area: panel2;
+  margin: auto;
+}
+
+#panel3 {
+  grid-area: panel3;
   margin: auto;
 }
